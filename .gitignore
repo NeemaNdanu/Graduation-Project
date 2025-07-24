@@ -1,0 +1,16 @@
+# Python environment and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Videos and output
+videos/
+
+# System files
+.DS_Store
+
+ 
+
