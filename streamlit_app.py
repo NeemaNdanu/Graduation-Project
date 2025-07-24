@@ -81,13 +81,19 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Top Banner Image ---
-img_path = "C:/Users/HP/Downloads/street at night.jpeg"
+def get_base64_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+img_path = "street_at_night.jpeg"
 img_base64 = get_base64_image(img_path)
+
 st.markdown(f"""
     <div class="center-img">
         <img src="data:image/jpeg;base64,{img_base64}">
     </div>
 """, unsafe_allow_html=True)
+
 
 # --- Title and Tagline ---
 st.markdown('<div class="main-title">🚗 Smart Road Eye – Real-Time Traffic Analyzer</div>', unsafe_allow_html=True)
