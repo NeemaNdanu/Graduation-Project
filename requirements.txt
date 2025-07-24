@@ -1,7 +1,10 @@
 streamlit
 ultralytics
-opencv-python
-pillow
-deep-sort-realtime
+opencv-python-headless
+Pillow
+deep_sort_realtime
 numpy
+torch
 pandas
+
+
