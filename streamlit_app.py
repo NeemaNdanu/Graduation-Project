@@ -121,7 +121,7 @@ if video_file:
 
     st.success("✅ Video uploaded successfully! Processing...")
 
-    model_path = "C:/Users/HP/Desktop/Data science Project/best2.pt"
+    model_path ="models/best2.pt"
 
     # --- Run the selected mode (using only positional arguments) ---
     if mode == "Object Detection":
