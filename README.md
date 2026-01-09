@@ -1,2 +1,2 @@
-# Graduation-Project
-Final year graduation project inspired by Deep Learning and Computer Vision. It applies real-time object detection and speed estimation to traffic videos using YOLO and Streamlit to demonstrate AI-driven traffic intelligence.
+# Real-Time Object Detection and Speed Estimation for Road Safety and Traffic Management
+Developed a computer vision system for real-time traffic video analysis, focusing on object detection and vehicle speed estimation. The project used YOLO for detecting and tracking vehicles and Streamlit to build an interactive interface for visualizing results. This work demonstrated the practical application of deep learning techniques to analyze traffic patterns and support data-driven insights in intelligent transportation systems.
