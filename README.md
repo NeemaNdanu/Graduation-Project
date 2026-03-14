@@ -2,7 +2,7 @@
  
 A computer vision system that detects road users and estimates vehicle speeds in real time from traffic video footage, built as a final year project at USIU-Africa.
  
-**Live App:** [Traffic Intelligence App](https://graduation-project-nfufoxa9rwcifefd9fzirr.streamlit.app/) &nbsp;|&nbsp; **Thesis:** [`4900VA_NeemaNdanu_FinalProject.pdf`](./4900VA_NeemaNdanu_FinalProject.pdf)
+**Live App:** [Traffic Intelligence App]&nbsp;|&nbsp; **Thesis:** [`4900VA_NeemaNdanu_FinalProject.pdf`]
  
 ---
  
