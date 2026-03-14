@@ -8,7 +8,7 @@ A computer vision system that detects road users and estimates vehicle speeds in
  
 ## Overview
  
-Road traffic accidents remain a critical public health challenge in Kenya, with over 2,400 fatalities recorded in the first half of 2024 alone (NTSA, 2024). This project addresses the lack of real-time monitoring tools by building an AI-driven system that detects accidents, classifies road users, and estimates vehicle speeds — using publicly available video footage from the X platform (formerly Twitter).
+Road traffic accidents remain a critical public health challenge in Kenya, with over 2,400 fatalities recorded in the first half of 2024 alone (NTSA, 2024). This project addresses the lack of real-time monitoring tools by building an AI-driven system that detects accidents, classifies road users, and estimates vehicle speeds, using publicly available video footage from the X platform (formerly Twitter).
  
 ---
  
@@ -16,7 +16,7 @@ Road traffic accidents remain a critical public health challenge in Kenya, with 
  
 | File / Folder | Description |
 |---|---|
-| `streamlit_app.py` | Main app entry point — upload a video and view detections live |
+| `streamlit_app.py` | Main app entry point, ie., upload a video and view detections live |
 | `video_detect.py` | Object detection pipeline using YOLOv8 |
 | `speed_estimation.py` | Centroid-based vehicle speed tracking |
 | `combined_mode.py` | Ensemble detection combining both trained models |
